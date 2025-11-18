@@ -6,6 +6,11 @@
 - Ensure there are 3 links on the header with links to the games: Tic-tac-toe, Asteroids, Rock paper scissors
 - Ensure the links are "spaced-around"
 
+Dashboard
+- The dashboard should reflect the total points acquired by the user in the games
+- In the center of the dashboard there should be the text "Score" with the value of the player's current score.
+- When the score reaches 3, an alert should popup saying the player has won!
+
 **Game 1 Tic-tac-toe** ❌:
 - Make a 3x3 grid and standard game of tic tac toe (video/sample provided).
 - There should be a play button to start the game, this button should be disabled when the game has started
@@ -14,6 +19,8 @@
 - If the player makes 3 O's in a row, they win and their score will increase by 1. The play button turns into play again and should not be disabled.
 - If the computer wins, the play button turns into "Play again" and should not be disabled
 - If there is a draw, the game is **automatically** restarted
+
+![game1](https://github.com/user-attachments/assets/e36506fd-7c5f-4932-9011-536d1b990dc9)
 
 **Game 2 Asteroids** ☄️:
 - The game container should be 1000px x 1000px with a gray background and 3px solid #000 border.
@@ -28,6 +35,8 @@
 - When the player presses "Spacebar", they should destroy any asteroid which is aligned in its path.
 - If the asteroids reach where the player are, the game ends with the text "You lose" and a play again button should appear in the center of the screen.
 - If the player wins, the text "You win should show" and their total score should increase. A play again button should appear in the center of the screen.
+
+![Game2](https://github.com/user-attachments/assets/a3ba12ff-eaf4-4a67-84ac-e2a815e2ed4f)
 
 **Game 3 Rock paper scissors** ✂️:
 - There should 3 clickable squares of size 200px x 200px and spaced-evenly in the center of the game screen.
@@ -44,7 +53,4 @@
 - When the player reaches a score of 3, the game ends with a popup that says "Player wins", and their total score in the dashboard should increase by 1.
 - If the computer wins, a play again button should appear.
 
-Dashboard
-- The dashboard should reflect the total points acquired by the user in the games
-
-
+![Game3](https://github.com/user-attachments/assets/4fdd366a-5f29-4c1d-8a84-25d28f320735)
